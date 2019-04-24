@@ -1,0 +1,40 @@
+.presentacion{
+    background-color: #F7FE72;
+    padding: 20px;
+
+}
+.p1{
+    display: inline-block;
+    weight: 50px;
+    font-family: Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.Sobre-mi{
+
+}
+.Formacion{
+
+}
+.Habilidades{
+
+}
+.Contacto{
+    background-color: #FF934F;
+    padding: 15px;
+   
+
+}
+.Formulario{
+    text-align-last: center;
+    
+
+}
+
+#mensaje, #email, #nombre, #apellido{
+
+width: 200px;
+text-align-last: center;
+}
+#mensaje{
+    height:150px;
+}
