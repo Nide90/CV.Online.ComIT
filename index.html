@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css" type="text/css" />
-  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>CV-ONLINE</title>
 </head>
-<body>
-
+<body>         
+    <ul>
+        <li><a class="active" href="inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mi</a></li>
+        <li><a href="#formacion">Formacion</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+        
+        
     <div class="presentacion">
         <img src="./imagenes/IMG_0158.jpg" alt="yo" id="foto"/>
             
@@ -33,17 +44,17 @@
         
     <div class="Habilidades"> 
         <h3>Habilidades</h3>
-
+    
     </div>
-
+    
     <div class="Contacto"> 
         
         <div class="Formulario">        
             <h3>Contacto</h3>
             <form action="mailto:ni_de@hotmail.com" method="get">
-                Nombre: <input type="text" name="nombre" id="nombre"> <br> <br>
-                Apellido: <input type="text" name="apellido" id="apellido"> <br> <br>
-                E-mail: <input type="email" name="email" id="email"> <br> <br>
+                <i class="far fa-id-card" id=id></i><input type="text" name="nombre" id="nombre"> <br> <br>
+                <i class="far fa-id-card" id=id></i><input type="text" name="apellido" id="apellido"> <br> <br>
+                <i class="fas fa-at" id=mail></i><input type="email" name="email" id="email"> <br> <br>
                 Mensaje: <input type="text" name="mensaje" id="mensaje"> <br> <br>
             <input type="submit" value="Enviar">
             </form>
@@ -51,6 +62,18 @@
 
     </div>
 
+   
+
+    <footer class="w3-container w3-teal w3-center w3-margin-top">
+        <p>Find me on social media.</p>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </footer>
 
 </body>
 </html>

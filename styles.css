@@ -1,14 +1,43 @@
-.presentacion{
-    background-color: #F7FE72;
-    padding: 20px;
+/*------------------------------MENU--------------------------*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px; 
+}
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
 
+/*------------------------------SECCIONES--------------------------*/
+
+  .presentacion{
+        padding: 20px;
 }
-.p1{
-    display: inline-block;
-    weight: 50px;
-    font-family: Helvetica, sans-serif;
-    margin-left: 30px;
-}
+
 .Sobre-mi{
 
 }
@@ -18,16 +47,25 @@
 .Habilidades{
 
 }
+.photoshop{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition: 2s;
+
+}
+.photoshop :hover {
+        width: 300px;
+      }
+
+</div>  
+
 .Contacto{
     background-color: #FF934F;
     padding: 15px;
-   
-
 }
 .Formulario{
     text-align-last: center;
-    
-
 }
 
 #mensaje, #email, #nombre, #apellido{
@@ -38,3 +76,8 @@ text-align-last: center;
 #mensaje{
     height:150px;
 }
+
+#id, #mail{
+  margin-right: 15px;
+}
+
